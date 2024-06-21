@@ -2,7 +2,7 @@
 <p align="center">
   <img src="https://github.com/RodEsB/TrustyWeb-Extension-Web/blob/main/src/assets/Logo%20fondo.png" alt="Logo" width="200">
 </p>
-<p align="center"><i>An innovative browser extension to enhance information discernment and its societal impact.i></p>
+<p align="center"><i>An innovative browser extension to enhance information discernment and its societal impact<i></p>
 <br>
 <p align="center"><i>Empowering users to critically evaluate information and form well-rounded perspectives!</i></p>
 <br>
