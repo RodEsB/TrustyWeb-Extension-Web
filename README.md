@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+<h1 align="center">TrustyWeb-Extension-Web</h1>
+<p align="center">
+  <img src="https://github.com/RodEsB/TrustyWeb-Extension-Web/blob/main/src/assets/Logo%20fondo.png" alt="Logo" width="200">
+</p>
+<p align="center"><i>An innovative browser extension to enhance information discernment and its societal impact.i></p>
+<br>
+<p align="center"><i>Empowering users to critically evaluate information and form well-rounded perspectives!</i></p>
+<br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Chromium Information Discernment Extension repository! 🌐🔍
 
-Currently, two official plugins are available:
+## About
+This Chromium-based browser extension is designed to enhance users' ability to discern information and understand its impact on society. Leveraging technologies like HTML, CSS, React, TypeScript, Vite, NodeJS, and the OpenAI API, this extension performs live URL searches, verifies information, and presents alternative sources to help users create their own informed perspectives.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+1. **Live URL Verification**: Uses OpenAI API to check the veracity of information in real-time.
+2. **Alternative Sources**: Presents users with multiple sources for better perspective building.
+3. **Interactive Interface**: Built with React and TypeScript for a smooth and engaging user experience.
+4. **Efficient Performance**: Utilizes Vite and NodeJS for optimal speed and functionality.
+5. **User Empowerment**: Helps users critically evaluate information to form well-rounded perspectives.
 
-## Expanding the ESLint configuration
+Join us in promoting critical thinking and informed decision-making. Let's make the web a place for thoughtful and informed discourse! 🧠🌐
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installation
+1. Clone the repository: git clone **https://github.com/RodEsB/TrustyWeb-Extension-Web**
+2. Navegate to the project directory: **cd TrustyWeb-Extension-Web**
+3. Install dependencies: **npm install**
+4. Run the development server: **npm run dev**
+5. Load the extension in your **Chromium-based browser**
 
-- Configure the top-level `parserOptions` property like this:
+## Usage
+1. After installing the extension, click on the extension icon in the browser toolbar.
+2. Enter the URL or select text to verify.
+3. View the results and alternative sources provided by the extension.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+##Contribute
+Contributions are welcome! Feel free to fork the repository and submit pull requests to improve our extension.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## :pencil: License
+This project is licensed under [MIT](https://opensource.org/licenses/MIT) license.
+
+## :rocket: Show your support
+If you believe in our mission, give us a ⭐️!
