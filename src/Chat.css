@@ -1,0 +1,75 @@
+.text-chat {
+    padding: 20px;
+    border: 1px solid #979797;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    min-height: 150px; /* Asegura que el cuadro tenga una altura mínima */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+    cursor: pointer; /* Muestra un cursor de puntero para indicar que es clicable */
+}
+
+.text-chat:hover {
+    background-color: #fff;
+    color: #000; /* Cambia el color del texto a negro */
+}
+
+.text-chat:hover .message,
+.text-chat:hover .header,
+.text-chat:hover .loading {
+    color: #000; /* Cambia el color del texto a negro en todos los elementos */
+}
+
+.loading {
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.message {
+    color: #fff;
+    margin-bottom: 20px;
+    flex-grow: 1; /* Permite que el mensaje ocupe el espacio disponible */
+    text-align: justify;
+}
+
+.header {
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #fff;  
+    justify-content: center;
+    color: #000;
+}

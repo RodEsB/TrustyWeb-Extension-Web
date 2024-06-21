@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "version" : "1.0.0",
+    "name" : "TrustyWeb",
+    "action": {
+        "default_popup" : "index.html",
+        "default_icon": "Logo fondo.png"
+    },
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+
+}
